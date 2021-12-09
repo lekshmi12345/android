@@ -1,0 +1,78 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/mybackgroundcolor"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:drawableLeft="@drawable/name"
+        android:layout_margin="8dp"
+        android:hint="Enter your name"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableLeft="@drawable/address"
+        android:layout_margin="5dp"
+        android:hint="Enter yor address"
+        android:id="@+id/address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableLeft="@drawable/phonenumber"
+        android:layout_margin="5dp"
+        android:hint="Enter your phone number"
+        android:id="@+id/phno"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableLeft="@drawable/emailid"
+        android:layout_margin="5dp"
+        android:hint="Enter your email id"
+        android:id="@+id/emid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableLeft="@drawable/username"
+        android:layout_margin="5dp"
+        android:hint="Enter your username"
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableLeft="@drawable/password"
+        android:hint="Enter your password"
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:drawableLeft="@drawable/password"
+        android:hint="Enter confirm password"
+        android:id="@+id/cmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/buttonstyle"
+        android:text="REGISTER"
+        android:layout_margin="5dp"
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/buttonstyle"
+        android:text=" BACK LOGIN"
+        android:id="@+id/blogin"
+        android:layout_margin="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</LinearLayout>
